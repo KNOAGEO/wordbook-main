@@ -1,0 +1,113 @@
+/*タイピングゲーム全体共通*/
+body{
+    font-size: 4em;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    margin: 5px 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+/*画面頭部分（タイマー＆何問目＆メニュー画面総合）*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/*ゲーム残り秒数タイマーエリア*/
+/*※タイマー実装はまた後ほど
+.timerarea {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.timer {
+    padding: 10px 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #463e3e;
+}
+*/
+
+/*第〇問目の欄*/
+#question-count {
+    padding: 70px 120px;
+    font-weight: bold;
+    color: #fff;
+    background-color: bisque;
+}
+
+
+/*
+.end {
+    padding: 10px;
+    background-color: bisque;
+    font-weight: lighter;
+}*/
+
+/*メニューボタン*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    margin-left: auto;
+    background-color: gray;
+}
+
+#menuname {
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu > button {
+    font-size: 14px;
+}
+
+/*出題エリア（タイピングと入力判断）*/
+.wrap {
+    margin-top: 20px;
+    padding: 80px 40px;
+    background-color: rgb(58,96,130);
+    font-weight: bold;
+    color: rgb(58, 96, 130);
+}
+
+/*You are ready？のスタイル*/
+.readytext{
+    color: #fff;
+}
+
+
+/* 頭文字だけ表示させる*/
+#wrap::first-letter{
+        color: #fff;
+    }
+
+/*正しくタイプされた場合のテキスト*/
+.typed{
+    color: #fff;
+}
+
+/*ミスタイプの場合の背景*/
+.mistyped {
+    background-color: rgb(114, 189, 255);
+}
+/*日本語訳のスタイル*/
+#ja{
+    color: #2e2c23;
+    font-weight: bold;
+}
+
+/*ボタンのスタイル*/
+.button {
+    font-weight: bold;
+    background-color: bisque;
+}
