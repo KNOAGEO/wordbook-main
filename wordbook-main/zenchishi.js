@@ -24,7 +24,7 @@ const jaspan = document.getElementById('ja');
 
 // 複数のテキストを格納する配列(出題したい問題内容はココへカキコミ！)
 const words = [
-    { en: "close", ja: "接近して" },
+    { en: "expect", ja: "～を除いて" },
     { en: "probably", ja: "多分、おそらく" },
     { en: "direct", ja: "直接に" },
     { en: "directly", ja: "直接に、すぐに" },
