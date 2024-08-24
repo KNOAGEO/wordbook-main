@@ -443,7 +443,7 @@ const createText = () => {
         // 200ms後に背景色を元に戻す
         setTimeout(()=> {
             wrap.classList.remove('mistyped');
-        }, 200);
+        }, 100);
         return;
      }
     
