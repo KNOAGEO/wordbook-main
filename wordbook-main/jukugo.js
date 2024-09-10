@@ -12,7 +12,7 @@ const typedfield = document.getElementById('typed');
 const wrap = document.getElementById('wrap');
 const start = document.getElementById('start');
 //
-const count = document.getElementById('qcount');
+const count = document.getElementById('question-count');
 const timerElement = document.getElementById('timer');
 const resetButton = document.getElementById('reset');
 const pauseButton = document.getElementById('pause');
